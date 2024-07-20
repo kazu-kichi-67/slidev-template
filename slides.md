@@ -42,11 +42,17 @@ hideInToc: true
 ***
 
 <br>
-<Toc maxDepth="1"/>
+<Toc maxDepth="2"/>
+
+---
+layout: section
+---
+
+# Section1
 
 ---
 
-# List Sample
+## List Sample
 
 ***
 
@@ -68,7 +74,7 @@ hideInToc: true
 
 ---
 
-# Table Sample
+## Table Sample
 
 ***
 
@@ -81,8 +87,28 @@ Table Sample.
 | C      | <kbd>ccccccccccccccccc</kbd> |
 
 ---
+layout: section
+---
 
-# Code Sample
+<div id="highlight-contents">
+highlight!!!
+</div>
+
+<style>
+  #highlight-contents {
+    font-size: 144pt;
+  }
+</style>
+
+---
+layout: section
+---
+
+# Section2
+
+---
+
+## Code Sample
 
 ***
 
@@ -104,7 +130,7 @@ pre.slidev-code {
 
 ---
 
-# Diagrams Sample
+## Diagrams Sample
 
 ***
 
@@ -182,7 +208,7 @@ database "MySql" {
 
 ---
 
-# Tips
+## Tips
 
 ***
 
