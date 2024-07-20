@@ -96,7 +96,7 @@ highlight!!!
 
 <style>
   #highlight-contents {
-    font-size: 144pt;
+    font-size: 72pt;
   }
 </style>
 
